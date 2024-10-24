@@ -13,11 +13,16 @@ body {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
+	max-width: 550px;
+	margin: auto;
 }
 .product__photo {
-    width: 50%;
+    width: 70%;
     border-radius: 8px;
     overflow: hidden;
+	margin-left: -60px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .photo-main {
     background-color: rgb(118, 206, 118);
@@ -88,6 +93,7 @@ li {
 }
 .add-to-cart-btn {
     padding: 10px 20px;
+	margin-top: 20px;
     background-color: red;
     color: white;
     border: none;
